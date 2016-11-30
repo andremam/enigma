@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+        <title>HTML5 CSS3 JS</title>
+    </head>
+    <body>   
+        <header>
+            <img id="logo" src="images/site_logo.png">
+            <h1>QUIZ</h1>
+            <p class="clearAll">HTML5 CSS3 and JS quiz
+                <a href="#">HOME</a>
+                <a href="#">CSS</a>
+                <a href="#">JAVA</a>
+                <a href="#">CONTACT</a>
+            </p>
+            <p id="backimg">
+                <br><br>
+            </p>
+            <p>
+                <img src="images/banner.jpg">
+            </p>
+        </header>
+        <nav>
+            
+        </nav>
+
+
+        <div id="corps">
+            <p>
+                <img id="logo" src="images/pin.png">
+                <h3> TEST YOUR HTML5 KNOWLEDGE</h3>
+            </p>
+
+            <div id="q1" class="clearAll">
+                <h4>1. Which tag should be used to represent the "header" of a document?</h4><br>
+                <input type="radio" name="q1" value="a1" checked>&lt;head&gt;<br>
+                <input type="radio" name="q1" value="a2">&lt;header&gt;<br>
+                <input type="radio" name="q1" value="a3">&lt;heading&gt;<br>
+                <input type="radio" name="q1" value="a4">&lt;main&gt;<br><br>
+                <input type="submit" value="Submit" onclick="manageQcm(1)">
+            </div>
+            <div id="q2" class="clearAll">
+                <h4>2.Which of the following is NOT a new feature of HTML5?</h4><br>
+                <input type="radio" name="q2" value="a1" checked>New Media Elements<br>
+                <input type="radio" name="q2" value="a2">Form Types<br>
+                <input type="radio" name="q2" value="a3">Local Storage<br>
+                <input type="radio" name="q2" value="a4">Cookies<br><br>
+                <input type="submit" value="Submit" onclick="manageQcm(2)">
+            </div>
+            <div id="q3" class="clearAll">
+                <h4>3. Which element is the most appropriate to wrap around each blog post on a page?</h4><br>
+                <input type="radio" name="q3" value="a1" checked>&lt;section&gt;<br>
+                <input type="radio" name="q3" value="a2">&lt;post&gt;<br>
+                <input type="radio" name="q3" value="a3">&lt;article&gt;<br>
+                <input type="radio" name="q3" value="a4">&lt;main&gt;<br><br>
+                <input type="submit" value="Submit" onclick="manageQcm(3)">
+            </div>
+            <div id="q4" class="clearAll">
+                <h4>4. Which HTML5 tag is used for sidebar content?</h4><br>
+                <input type="radio" name="q4" value="a1" checked>&lt;aside&gt;<br>
+                <input type="radio" name="q4" value="a2">&lt;sidebar&gt;<br>
+                <input type="radio" name="q4" value="a3">&lt;sub&gt;<br>
+                <input type="radio" name="q4" value="a4">&lt;side&gt;<br><br>
+                <input type="submit" value="Submit" onclick="manageQcm(4)">
+            </div>
+            <div id="q5" class="clearAll">
+                <h4>5. Which of the following tag automatically focus one particular form field in HTML5?</h4><br>
+                <input type="radio" name="q5" value="a1" checked>output<br>
+                <input type="radio" name="q5" value="a2">placeholder<br>
+                <input type="radio" name="q5" value="a3">autofocus<br>
+                <input type="radio" name="q5" value="a4">required<br><br>
+                <input type="submit" value="Submit" onclick="manageQcm(5)">
+            </div>
+            <div id="final" class="clearAll">
+                <h4 id="score"></h4>
+                <br>
+                <a id="playAgain" href="">Take Quizz Again</a><br>
+                <p>Good Job!</p>
+            </div>
+        </div>
+
+
+        <footer>
+            <p id="backfooter">
+            <br><br><br><br>
+            </p>
+            <table>
+                <tr>
+                    <td id="tabSize" >QUIZ LINKS</td>
+                    <td id="tabSize" class="centerclass">SOCIAL NETWORKS</td>
+                    <td colspan="2"class="centerclass"> PREFERED SITES</td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JS</li>
+                        </ul>
+                    </td>
+                    <td class="centerclass">
+                        <img src="images/facebook.png">
+                        <img src="images/twitter.png">
+                        <img src="images/youtube.png">
+                        <img src="images/pinterest.png">
+                        <img src="images/linkedin.png">
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Google</li>
+                            <li>MSN</li>
+                            <li>Yahoo</li>
+                            <li>DuckDuckGO</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>BOOTSTRAP</li>
+                            <li>JQuery</li>
+                            <li>AngularJS</li>
+                            <li>ExpressJS</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            
+        </footer>
+
+
+	   <script src="js/jquery.js"></script>
+	   <script src="js/quiz.js"></script>
+	
+    </body>
+</html>
